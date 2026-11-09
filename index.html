@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Seung Oh Jung의 앱 안내와 개인정보 처리방침. 명절백과와 FrameReview의 정보를 확인하세요.">
+  <meta name="color-scheme" content="light dark">
+  <title>Seung Oh Jung · Apps</title>
+  <link rel="canonical" href="https://jungbtc.github.io/">
+  <style>
+    :root { color-scheme: light dark; --paper: #f7f2e8; --card: #fffdf8; --ink: #211d18; --muted: #6e655c; --accent: #955027; --line: #e5dbcd; }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #151410; --card: #22201c; --ink: #f6efe5; --muted: #c3b8aa; --accent: #e6a16f; --line: #3b332b; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; line-height: 1.65; }
+    main { max-width: 760px; margin: auto; padding: 72px 24px 40px; }
+    header { margin-bottom: 44px; }
+    .eyebrow { color: var(--accent); font-size: 14px; font-weight: 600; }
+    h1 { margin: 8px 0 12px; font-size: clamp(32px, 7vw, 48px); line-height: 1.15; text-wrap: balance; }
+    h2 { margin: 0; font-size: 24px; text-wrap: balance; }
+    p { margin: 12px 0; text-wrap: pretty; }
+    .intro, .description { color: var(--muted); }
+    article { padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: var(--card); }
+    article + article { margin-top: 16px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 20px; }
+    a { color: var(--accent); text-underline-offset: 4px; text-decoration-thickness: 1px; }
+    nav a { display: inline-flex; align-items: center; min-height: 44px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+    footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 20px; font-size: 14px; color: var(--muted); }
+    @media (max-width: 420px) { main { padding: 44px 20px 28px; } article { padding: 22px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">앱 안내 · APP INFORMATION</p>
+      <h1>Seung Oh Jung</h1>
+      <p class="intro">앱 정보와 개인정보 처리방침을 한곳에서 확인하세요.</p>
+    </header>
+    <article aria-labelledby="kinship-title">
+      <h2 id="kinship-title">명절백과</h2>
+      <p class="description">헷갈리는 친척 호칭부터 촌수, 명절 인사말까지.<br>가족 관계를 하나씩 선택해 필요한 답을 찾아보세요.</p>
+      <nav aria-label="명절백과 링크">
+        <a href="https://apps.apple.com/kr/app/id6812151029">App Store에서 보기</a>
+        <a href="https://jungbtc.github.io/myeongjulbakgua-privacy/">개인정보 처리방침</a>
+        <a href="https://github.com/jungbtc/myeongjulbakgua-privacy/issues">문의하기</a>
+      </nav>
+    </article>
+    <article aria-labelledby="framereview-title">
+      <h2 id="framereview-title">FrameReview</h2>
+      <p class="description">FrameReview의 개인정보 처리방침을 확인하세요.</p>
+      <nav aria-label="FrameReview 링크">
+        <a href="https://jungbtc.github.io/framereview-privacy/">개인정보 처리방침</a>
+      </nav>
+    </article>
+    <footer>© 2026 Seung Oh Jung</footer>
+  </main>
+</body>
+</html>
